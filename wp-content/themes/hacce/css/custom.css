@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*
+Author: Alejandro Bernardez Araujo
+Para hacer uso de los mixins es tan sencillo como hacer un @include [nombre del breakpoint]{ [estilos css] }
+
+En este ejemplo indicaremos que por defecto las cards tenga un texto alineado al centro pero en resoluciones inferiores a 575.98px se alineará a la izquierda.
+
+.card{
+  text-align: center;
+  @include xs{
+    text-align: right;
+  }
+}
+*/
+/*Colores*/
+/*Tipografias*/
+/*Espaciado cabecera*/
+/*Sobreescribir variables material*/
+h2 {
+  color: white;
+  font-weight: lighter; }
+
+a {
+  color: #A1887F; }
+
+.navbar-brand img {
+  max-width: 200px !important; }
+
+#seccion1 {
+  background-color: #BCAAA4;
+  min-height: 600px; }
+
+#seccion2 {
+  background-color: #A1887F;
+  min-height: 300px; }
+
+.sin-pb {
+  padding-bottom: 0; }
+
+.card-alf {
+  background-repeat: no-repeat;
+  width: 200px;
+  height: auto;
+  float: left; }
+
+.thumbnail-crop {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  overflow: hidden; }
+  .thumbnail-crop img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.bgc-main {
+  background-color: #A1887F; }
+
+/*# sourceMappingURL=custom.css.map */

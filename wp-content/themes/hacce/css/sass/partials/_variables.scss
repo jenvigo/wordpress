@@ -1,0 +1,31 @@
+  /*Colores*/
+$mainColor: #A1887F;
+$mainColor: #A1887F;
+$gris_oscuro: #383838;
+$gris_claro: #f7f7f7;
+$texto: #212529;
+$blanco: #FFFFFF;
+
+/*Tipografias*/
+$tipo_main: "Roboto", sans-serif;
+$tipo_sec: "Roboto", sans-serif;
+$font_size_small: 14px;
+$font_size: 16px;
+$font_size_big: 18px;
+$font_h1: 2.2rem;
+$font_h2: 1.7rem;
+$font_h3: 1.4rem;
+$font_h4: 1.2rem;
+$font_h5: 1.1rem;
+$font_h6: 1rem;
+
+/*Espaciado cabecera*/
+$espaciado_cabecera: 90px;
+$espaciado_cabecera_lg: 90px;
+$espaciado_cabecera_md: 75px;
+$espaciado_cabecera_sm: 75px;
+$espaciado_cabecera_xs: 75px;
+
+/*Sobreescribir variables material*/
+$primary-color: $mainColor !default;
+$input-focus-color: $mainColor !default;

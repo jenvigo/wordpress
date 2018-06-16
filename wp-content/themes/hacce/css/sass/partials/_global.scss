@@ -1,0 +1,55 @@
+h2{
+  color: white;
+  font-weight: lighter;
+}
+
+a{
+  color: $mainColor;
+}
+
+
+.navbar-brand img{
+  max-width: 200px !important;
+}
+
+#seccion1{
+  background-color: #BCAAA4;
+  min-height: 600px;
+}
+#seccion2{
+  background-color: #A1887F;
+  min-height: 300px;
+}
+.sin-pb{
+  padding-bottom: 0;
+}
+.card-alf{
+  background-repeat: no-repeat;
+  width: 200px;
+  height: auto;
+  float: left;
+  .card-body{
+    //margin-top: 200px;
+  }
+}
+
+.thumbnail-crop{
+  position: relative;
+  height: 200px;
+  width:200px;
+  overflow: hidden;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+}
+
+.bgc-main{
+  background-color: $mainColor;
+}
