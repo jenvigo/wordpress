@@ -14,6 +14,6 @@ $imagen = get_sub_field("imagen");
     <div class="card-body">
         <h4 class="card-title font-weight-light"><?php echo $nombre; ?></h4>
         <p class="card-text"><?php echo $posicion; ?></p>
-        <a href="#" class="btn btn-primary bgc-main">Ver más y mejor</a>
+        <a href="#" class="btn btn-primary bgc-main">Ver más</a>
     </div>
 </div>
